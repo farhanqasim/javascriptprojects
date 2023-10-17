@@ -1,0 +1,81 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+}
+.about{
+    margin-top: 20px;
+    text-align: center;
+    
+}
+.about h2{
+   font-weight: bold;
+}
+.about p{
+    margin-top: 40px;
+}
+.image{
+    margin-top: 1rem;
+}
+.para{
+    margin-top: 1rem;
+}
+.image img{
+   width: 550px;
+   height: 430px;
+}
+.para h3{
+ font-weight: bold;
+
+}
+.para span i{
+  color: aqua;
+  font-size: 20px;
+   
+   }
+   .card-body span{
+font-weight: bold;
+font-size: 50px;
+   }
+   .card-body span i{
+    color: rgba(3, 154, 180, 0.801);
+   }
+   .card-body a{
+    font-weight: bold;
+   }
+   .para1 i{
+color: rgba(3, 154, 180, 0.801);
+font-size: 40px;
+margin-top: 5px;
+   }
+   .headingpara{
+margin-left: 15px;
+   }
+   .headingpara h5{
+    font-weight: bold;
+         }
+   .icon1 i{
+     color: rgb(5, 151, 151);
+     font-weight: bold;
+     font-size: 35px;
+
+   }
+   .content{
+      margin-left: 20px;
+   }
+
+@media(max-width:556px){
+    .image img{
+        width:350px;
+        height: 200px;
+        margin: auto;
+        text-align: center;
+        margin-left: 10px;
+     }
+     .para h3{
+        font-weight: bold;
+       text-align: center;
+       margin-top: 10px;
+       }
+}

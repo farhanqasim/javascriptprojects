@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>clock2</title>
+<style>
+        #clock{
+            position: absolute;
+        width: 600px;
+        height: 300px;
+        background: #ff5e00;
+        display: flex;
+        font-size: 50px;
+        top: 30%;
+        left: 30%;
+
+
+    }
+    #hourhand,#minhand,#sechand{
+        text-align: center;
+        position: relative;
+        top: 30%;
+        left: 25%;
+        font-size: 100px;
+    }
+</style>
+</head>
+<body>
+    <div id="clock">
+        <div id="hourhand">00:</div>  
+      <div id="minhand">00:</div>
+      <div id="sechand">00</div>
+    </div>
+    <script>
+        //clock hand variables
+        let hourhand=document.getElementById('hourhand');
+        let minhand=document.getElementById('minhand');
+        let sechand=document.getElementById('sechand');
+        //loop
+        setInterval(() => {
+            
+     
+    //time variables
+    let time=new Date();
+    let hour=time.getHours();
+    let min=time.getMinutes();
+    let sec=time.getSeconds();
+    //maths
+    let hr=hour*30;
+    let mr=min*6;
+    let sr=sec*6;
+    //hard rptation
+   
+     },1000);
+    </script>
+</body>
+</html>

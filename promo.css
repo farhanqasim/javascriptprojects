@@ -1,0 +1,22 @@
+
+
+#cms-content[_ngcontent-bno-c7] {
+    max-width: 1200px;
+    margin: 3rem auto 6rem;
+}
+.para1{
+text-align: justify;
+align-content: space-around;
+text-align-last: center;
+}
+h1 {
+    font-family: acumin-pro,sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 42px;
+    color: #ff6600;
+}
+a {
+    color: #f60;
+    text-decoration: none;
+}

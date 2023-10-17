@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bulb</title>
+    <style>
+        .bulb {
+            text-align: center;
+            margin-top: 5rem;
+        }
+
+        #btn {
+            padding-left: 40px;
+            padding-right: 40px;
+            font-size: 25px;
+            font-weight: bold;
+            margin-top: 30px;
+            border: none;
+            border-radius: 20px;
+            color: rgb(255, 0, 0);
+
+        }
+    </style>
+</head>
+
+<body bgcolor="white">
+    <div class="bulb ">
+            <img src="css/pic_bulboff.gif" alt="" id="myimage" width="100px"><br>
+            <button type="button" onclick="document.getElementById('myimage').src='css/bulb-on-removebg-preview.png'"
+             id="btn">start</button>
+             <button type="button" onclick="document.getElementById('myimage').src='css/pic_bulboff.gif'"
+             id="btn">off</button>
+             <script>
+                var btn = document.getElementById('btn');
+
+// ✅ Change button text on click
+btn.addEventListener('click', function handleClick() {
+  btn.textContent = 'on';
+  btn.style.backgroundColor='yellow';
+   
+ 
+});
+
+/**
+ * ✅ If you need to change the button's inner HTML use:
+ *  - `innerHTML` instead of `textContent`
+ */
+ 
+          
+         
+
+             </script>
+     </div>
+</body>
+
+</html>

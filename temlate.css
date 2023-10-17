@@ -1,0 +1,221 @@
+.back-image{
+    background-image: url(css/landscape-4k-wallpaper-2560x1080_14.jpg);
+    height: 300px;
+    width: 100%;
+background-repeat: no-repeat;
+background-size: cover;
+}
+ .profile-image img{
+    width: 250px;
+    height: 250px;
+    border-radius: 75%;
+    margin-top: -7rem;
+    border: 2px solid white;
+    background-color: white;
+    box-shadow: 1px 1px 10px black;
+}
+.back-color{
+    background-color: rgb(255, 241, 252);
+}
+.list-item{
+list-style: none;
+}
+.btn{
+    width: 300px;
+    padding: 10px;
+    background-color: rgb(1, 143, 143);
+    border: none;
+ 
+    margin-left: 50px;
+    border-radius: 20px;
+}
+.stars i{
+    color: rgb(255, 174, 0);
+    
+}
+.star .par{
+    font-size: 40px;
+    font-weight: bold;
+    
+}
+.card-section{
+    margin-top: 15rem;
+    
+}
+.differnce-of-us-item {
+    position: relative;
+    transition: 0.3s;
+    margin-left: 5rem;
+    background-color: #F5F7FA;
+  
+}
+
+.differnce-of-us-item .icon img{
+    height: 15vh;
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: inset 0 0 10px #000000;
+}
+.block{
+    margin-left: 15px;
+}
+.block h3{
+  color: #040404;
+    font-family: "Rubik", sans-serif;
+    font-weight: 600;
+}
+.block p{
+  color: #000;
+  font-size: 1em;
+}
+.differnce-of-us-item:hover{
+   box-shadow: 0px 25px 65px 0px rgb(0 0 0 / 10%) !important;
+}
+.block-properties{
+    display: flex;
+   justify-content: space-around;
+}
+.properties-icon{
+    display: flex;
+}
+.card-section{
+    background-color: rgb(253, 232, 251);
+}
+
+.fa-regular{
+float: right;
+position: relative;
+left: 60px;
+top: -40px;
+}
+
+.card-1{
+    background-color: #F5F7FA;
+    min-height: 100px;
+    max-width: 100%;
+    box-shadow: inset 0 0 1px #000000;
+    padding: 10px;
+    border: none;
+
+}
+.price span{
+  position: relative;
+  left: 70px;
+ 
+  font-size: 20px;
+  color: blue;
+}
+@media(max-width:414px){
+    .profile-image img{
+        width: 200px;
+        height: 200px;
+    margin-left: -200px;
+  
+      
+    }
+    .name{
+        text-align: center;
+    }
+.price span{
+    position: relative;
+    left:-80px;
+    top:1px;
+  }
+}
+@media(max-width:556px){
+    .profile-image img{
+        width: 200px;
+        height: 200px;
+       
+    margin-left: 70px; 
+      
+    }
+    .name{
+        text-align: center;
+    }
+  
+.card-1{
+    background-color: #F5F7FA;
+    min-height: 150px;
+    width: 100%;
+  margin: auto;
+  margin-left: 60px;
+  
+}
+.fa-regular{
+    float: right;
+    position: relative;
+    left: -5px;
+    top: -300px;
+    } 
+.btn{
+    width: 250px;
+    margin: auto; 
+    margin-left: 40px;
+ 
+} 
+.stars i{
+   margin: auto;
+position: relative;
+left: 30px;
+
+}
+.star .par{
+   
+    position: relative;
+left: 30px;
+}
+.star p{
+    position: relative;
+left: 30px;
+}
+.price span{
+    position: relative;
+    left:-80px;
+    top:15px;
+  
+
+  }
+}
+
+@media(max-width:992px){
+    .fa-regular{
+        float: right;
+        position: relative;
+        left: -5px;
+        top: -100px;
+        } 
+        .btn{
+            width: 250px;
+            margin: auto; 
+            margin-left: 40px;
+         
+        } 
+        .price span{
+            position: relative;
+            left:5px;
+            top:0px;
+          }
+}
+@media(max-width:768px){
+    .fa-regular{
+        float: right;
+        position: relative;
+        left: -3px;
+        top: -50px;
+        } 
+}
+@media(max-width:1200px){
+    .fa-regular{
+        float: right;
+        position: relative;
+        left: -3px;
+        top: -10px;
+        } 
+        .price span{
+            position: relative;
+            left:10px;
+            top:0px;
+          }
+}
+
